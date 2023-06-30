@@ -143,6 +143,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
               >&times;</a
             >
+            <a href="#importance" onclick="closeNav()">What?</a>
             <a href="#work" onclick="closeNav()">How it works</a>
             <a href="#usecases" onclick="closeNav()">Why Use SPI</a>
             <a href="#report" onclick="closeNav()">Sample Report</a>
@@ -199,9 +200,23 @@
           />
           <div class="navList">
             <li>
-              <a style="color: var(--primary) !important" href="#work"
-                >How it works</a
+              <div
+                class="dropdown"
+                style="margin-left: -1rem; margin-right: -1rem"
               >
+                <div class="dropbtn">
+                  About SPI
+                  <img src="assets/spi/images/dropdown.svg" alt="" />
+                </div>
+                <div
+                  class="dropdown-content"
+                  style="color: black !important; text-align: center"
+                >
+                  <a href="#importance" style="color: #ff3131">What</a>
+                  <a href="#ways" style="color: #ff3131">Ways</a>
+                  <a href="#work" style="color: #ff3131">Working</a>
+                </div>
+              </div>
             </li>
             <li>
               <a style="color: var(--primary) !important" href="#usecases"
