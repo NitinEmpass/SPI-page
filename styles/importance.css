@@ -31,7 +31,7 @@
 }
 .needImage .video {
   width: 100%;
-  height: 25rem;
+  height: 20rem;
   border-radius: 5px;
   flex: 1;
 }
@@ -63,10 +63,10 @@
     padding: 2rem;
     background-color: white;
   }
-  .needImage .video {
+  /* .needImage .video {
     width: 100%;
     height: 31rem;
     border-radius: 5px;
     flex: 1;
-  }
+  } */
 }
